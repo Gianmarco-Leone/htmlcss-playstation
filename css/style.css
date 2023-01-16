@@ -42,6 +42,15 @@
     border: 1px solid blue;
 }
 
+#playstation-plus .row .col-12 * {
+    height: 40px;
+    border: 1px solid black;
+}
+
+#playstation-plus .row div:last-child {
+    border: 1px solid green;
+}
+
 /**********
 HEADER
 **********/
@@ -75,4 +84,9 @@ main .upper-jumbotron {
 #new-release .section-bottom {
     background-color: #1F1F1F;
     color: white;
+}
+
+/* QUARTA SEZIONE */
+#playstation-plus {
+    background-color: #BEBCBB;
 }
