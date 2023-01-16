@@ -1,18 +1,4 @@
 /* CLASSI DI DEBUG */
-.upper-jumbotron {
-    background-color: gray;
-}
-
-#jumbotron .upper-jumbotron .row .col-12 div {
-    height: 40px;
-    border: 1px solid red;
-}
-
-#jumbotron .bottom-jumbotron .row div {
-    height: 100px;
-    border: 1px solid black;
-}
-
 #playstation-5 .row .col-12 {
     height: 200px;
     border: 1px solid red;
@@ -80,6 +66,15 @@ ul li a {
     text-decoration: none;
 }
 
+.btn.pills {
+    border-radius: 20px !important;
+}
+
+.btn.buy-btn {
+    background-color: #CD3D0F;
+    color: #FFF;
+}
+
 /**********
 HEADER
 **********/
@@ -87,13 +82,31 @@ header .upper-header {
     background-color: #111;
 }
 
+header .upper-header img {
+    width: 80px;
+}
+
+header .navbar .nav-item img {
+    width: 60%;
+}
+
 /**********
 MAIN
 **********/
 /* JUMBOTRON */
-main .upper-jumbotron {
+#jumbotron {
+    padding-top: 100px;
+}
+
+#jumbotron .upper-jumbotron {
     height: 80vh;
-    padding-top: 80px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#jumbotron .upper-jumbotron .title-img {
+    width: 50%;
 }
 
 #jumbotron .upper-jumbotron .container,
