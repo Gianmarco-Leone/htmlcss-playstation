@@ -1,14 +1,4 @@
 /* CLASSI DI DEBUG */
-#playstation-5 .row .col-12 {
-    height: 200px;
-    border: 1px solid red;
-}
-
-#playstation-5 .row .col {
-    height: 80px;
-    border: 1px dashed green;
-}
-
 #new-release .section-top {
     background-color: yellow;
 }
@@ -112,6 +102,15 @@ MAIN
 #jumbotron .upper-jumbotron .container,
 #jumbotron .upper-jumbotron .row {
     height: 100%;
+}
+
+/* PRIMA SEZIONE - PLAYSTATION 5 */
+#playstation-5 .text-center>span {
+    color: #0064b7;
+}
+
+#playstation-5 .container .row-cols-3 img {
+    cursor: pointer;
 }
 
 /* SECONDA SEZIONE */
