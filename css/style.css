@@ -65,6 +65,11 @@
     border: 1px solid green;
 }
 
+#follow-us .container .row .col-6 {
+    height: 50px;
+    border: 1px solid black;
+}
+
 /**********
 HEADER
 **********/
