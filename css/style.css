@@ -37,6 +37,11 @@
     border: 1px solid white;
 }
 
+#playstation-4 .container .row .col-12 {
+    height: 60px;
+    border: 1px solid blue;
+}
+
 /**********
 HEADER
 **********/
