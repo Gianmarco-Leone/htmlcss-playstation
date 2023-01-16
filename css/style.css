@@ -13,6 +13,16 @@ main #jumbotron .bottom-jumbotron .row div {
     border: 1px solid black;
 }
 
+#playstation-5 .row .col-12 {
+    height: 200px;
+    border: 1px solid red;
+}
+
+#playstation-5 .row .col {
+    height: 80px;
+    border: 1px dashed green;
+}
+
 /**********
 HEADER
 **********/
