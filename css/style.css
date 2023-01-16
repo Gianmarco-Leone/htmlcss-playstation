@@ -70,6 +70,16 @@
     border: 1px solid black;
 }
 
+/* GENERICS */
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /**********
 HEADER
 **********/
@@ -114,4 +124,12 @@ main .upper-jumbotron {
 #playstation-now {
     color: white;
     background-color: #161C3B;
+}
+
+/**********
+FOOTER
+**********/
+footer {
+    background-color: #00439C;
+    color: white;
 }
