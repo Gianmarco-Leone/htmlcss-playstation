@@ -1,13 +1,4 @@
 /* CLASSI DI DEBUG */
-#playstation-now .row .col-12 * {
-    height: 40px;
-    border: 1px solid white;
-}
-
-#playstation-now .row div:last-child {
-    border: 1px solid green;
-}
-
 #follow-us .container .row .col-6 {
     height: 50px;
     border: 1px solid black;
