@@ -1,9 +1,3 @@
-/* CLASSI DI DEBUG */
-#follow-us .container .row .col-6 {
-    height: 50px;
-    border: 1px solid black;
-}
-
 /* GENERICS */
 ul {
     list-style-type: none;
