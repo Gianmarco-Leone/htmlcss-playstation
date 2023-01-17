@@ -1,9 +1,4 @@
 /* CLASSI DI DEBUG */
-#playstation-4 .container .row .col-12 {
-    height: 60px;
-    border: 1px solid blue;
-}
-
 #playstation-plus .row .col-12 * {
     height: 40px;
     border: 1px solid black;
