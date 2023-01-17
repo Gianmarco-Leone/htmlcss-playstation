@@ -1,13 +1,4 @@
 /* CLASSI DI DEBUG */
-#playstation-plus .row .col-12 * {
-    height: 40px;
-    border: 1px solid black;
-}
-
-#playstation-plus .row div:last-child {
-    border: 1px solid green;
-}
-
 #discounts .container .row .col-12 {
     height: 60px;
     border: 1px solid blue;
@@ -44,6 +35,11 @@ ul li a {
 .btn.buy-btn {
     background-color: #CD3D0F;
     color: #FFF;
+}
+
+.btn.explore-btn {
+    background-color: lightgrey;
+    border-color: lightgrey;
 }
 
 .title-img {
@@ -113,6 +109,10 @@ MAIN
 /* QUARTA SEZIONE */
 #playstation-plus {
     background-color: #BEBCBB;
+}
+
+#playstation-plus .title-img {
+    width: 60%;
 }
 
 /* SESTA SEZIONE */
