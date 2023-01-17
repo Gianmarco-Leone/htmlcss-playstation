@@ -108,3 +108,15 @@ footer {
     background-color: #00439C;
     color: white;
 }
+
+footer .language-logo img {
+    width: 1rem;
+}
+
+footer .footer-bottom .logo img {
+    width: 8rem;
+}
+
+footer .footer-bottom p>a {
+    color: inherit;
+}
