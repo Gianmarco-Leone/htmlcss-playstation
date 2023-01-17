@@ -41,6 +41,13 @@ header .navbar .nav-item img {
     width: 60%;
 }
 
+header .navbar ul>.nav-item.d-flex img {
+    width: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+}
+
 /**********
 MAIN
 **********/
