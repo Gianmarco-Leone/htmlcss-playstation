@@ -1,0 +1,15 @@
+.btn.buy-btn:hover {
+    opacity: 0.7;
+    border: 1px solid #CD3D0F;
+    box-shadow: inset 0px 0px 0px 2px #000;
+    box-sizing: border-box;
+}
+
+.bottom-jumbotron .row img:hover {
+    transform: translate(0, -10px);
+}
+
+#playstation-5 .row .hover-border:hover {
+    opacity: 1;
+    border-bottom: 2px solid #0D6EFD;
+}

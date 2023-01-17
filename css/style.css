@@ -68,6 +68,11 @@ MAIN
     height: 100%;
 }
 
+#jumbotron .bottom-jumbotron .row img {
+    cursor: pointer;
+    transition: all .5s;
+}
+
 /* PRIMA SEZIONE - PLAYSTATION 5 */
 #playstation-5 .text-center>span {
     color: #0064b7;
@@ -77,7 +82,11 @@ MAIN
     cursor: pointer;
 }
 
-/* SECONDA SEZIONE */
+#playstation-5 .row .hover-border {
+    opacity: .5;
+}
+
+/* SECONDA SEZIONE - NUOVE USCITE */
 #new-release .section-top {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -93,7 +102,7 @@ MAIN
     cursor: pointer;
 }
 
-/* QUARTA SEZIONE */
+/* QUARTA SEZIONE - PLAYSTATION PLUS */
 #playstation-plus {
     background-color: #BEBCBB;
 }
@@ -102,7 +111,7 @@ MAIN
     width: 60%;
 }
 
-/* SESTA SEZIONE */
+/* SESTA SEZIONE - PLAYSTATION NOW */
 #playstation-now {
     color: white;
     background-color: #161C3B;
