@@ -1,18 +1,4 @@
 /* CLASSI DI DEBUG */
-#new-release .section-top {
-    background-color: yellow;
-}
-
-#new-release .section-top .row .col-12 div {
-    height: 20px;
-    border: 1px solid red;
-}
-
-#new-release .section-bottom .row div {
-    height: 40px;
-    border: 1px solid white;
-}
-
 #playstation-4 .container .row .col-12 {
     height: 60px;
     border: 1px solid blue;
@@ -65,6 +51,10 @@ ul li a {
     color: #FFF;
 }
 
+.title-img {
+    width: 50%;
+}
+
 /**********
 HEADER
 **********/
@@ -95,10 +85,6 @@ MAIN
     background-position: center;
 }
 
-#jumbotron .upper-jumbotron .title-img {
-    width: 50%;
-}
-
 #jumbotron .upper-jumbotron .container,
 #jumbotron .upper-jumbotron .row {
     height: 100%;
@@ -115,16 +101,18 @@ MAIN
 
 /* SECONDA SEZIONE */
 #new-release .section-top {
-    height: 400px;
-}
-
-#new-release .section-top .row {
-    height: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #new-release .section-bottom {
     background-color: #1F1F1F;
     color: white;
+}
+
+#new-release .section-bottom img {
+    cursor: pointer;
 }
 
 /* QUARTA SEZIONE */
