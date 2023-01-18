@@ -29,3 +29,33 @@
     box-shadow: inset 0px 0px 0px 2px #000;
     box-sizing: border-box;
 }
+
+.container-fluid {
+    background-color: #F8F9FA;
+}
+
+.container-fluid .row img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.container-fluid .row .link-header-list>li {
+    color: #0070d1;
+}
+
+.container-fluid .row ul>li a {
+    color: #000;
+    text-decoration: none;
+}
+
+header .nav-item:active .arrow-hover {
+    display: block;
+}
+
+header .nav-item:active .arrow {
+    display: none;
+}
+
+.nav-item:active .container-fluid {
+    display: block;
+}

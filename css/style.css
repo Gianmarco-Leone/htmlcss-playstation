@@ -1,5 +1,5 @@
 /* GENERICS */
-ul {
+footer ul {
     list-style-type: none;
 }
 
@@ -46,6 +46,14 @@ header .navbar ul>.nav-item.d-flex img {
     cursor: pointer;
     position: relative;
     top: 3px;
+}
+
+header .nav-item .arrow-hover {
+    display: none;
+}
+
+header .container-fluid {
+    display: none;
 }
 
 /**********
