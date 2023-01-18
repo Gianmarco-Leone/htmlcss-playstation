@@ -78,7 +78,7 @@ MAIN
     color: #0064b7;
 }
 
-#playstation-5 .container .row-cols-3 img {
+#playstation-5 .container .row .hover-border {
     cursor: pointer;
 }
 
