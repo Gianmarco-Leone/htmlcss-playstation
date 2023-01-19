@@ -8,6 +8,10 @@ ul li a {
     text-decoration: none;
 }
 
+.bg-white {
+    background-color: #FFF;
+}
+
 .btn.pills {
     border-radius: 20px !important;
 }
@@ -39,21 +43,6 @@ header .upper-header img {
 
 header .navbar .nav-item img {
     width: 60%;
-}
-
-header .navbar ul>.nav-item.d-flex img {
-    width: 10px;
-    cursor: pointer;
-    position: relative;
-    top: 3px;
-}
-
-header .nav-item .arrow-hover {
-    display: none;
-}
-
-header .container-fluid {
-    display: none;
 }
 
 /**********
@@ -103,11 +92,16 @@ MAIN
 
 #new-release .section-bottom {
     background-color: #1F1F1F;
-    color: white;
+    color: #FFF;
 }
 
 #new-release .section-bottom img {
     cursor: pointer;
+}
+
+/* TERZA SEZIONE - PLAYSTATION 4 */
+#playstation-4 .container .row p {
+    min-height: 4.5rem;
 }
 
 /* QUARTA SEZIONE - PLAYSTATION PLUS */
@@ -121,7 +115,7 @@ MAIN
 
 /* SESTA SEZIONE - PLAYSTATION NOW */
 #playstation-now {
-    color: white;
+    color: #FFF;
     background-color: #161C3B;
 }
 
@@ -130,7 +124,7 @@ FOOTER
 **********/
 footer {
     background-color: #00439C;
-    color: white;
+    color: #FFF;
 }
 
 footer .language-logo img {
