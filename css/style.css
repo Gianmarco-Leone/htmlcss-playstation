@@ -45,6 +45,26 @@ header .navbar .nav-item img {
     width: 60%;
 }
 
+header .navbar .dropdown-toggle::after {
+    display: none;
+}
+
+header .navbar .nav-link.dropdown-toggle img {
+    width: .8rem;
+}
+
+header .navbar .nav-link.dropdown-toggle img.arrow-hover {
+    display: none;
+}
+
+header .navbar .nav-link.dropdown-toggle:active img.arrow-block {
+    display: none;
+}
+
+header .navbar .nav-link.dropdown-toggle:active img.arrow-hover {
+    display: inline-block;
+}
+
 /**********
 MAIN
 **********/
